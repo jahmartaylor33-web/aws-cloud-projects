@@ -7,7 +7,16 @@ This project demonstrates the design and deployment of a highly available web ap
 ## Architecture
 The architecture uses multiple Availability Zones to ensure high availability and resilience.
 
-(Architecture diagram included in this folder)
+
+## Architecture Diagram
+
+![Multi-AZ EC2 Architecture](multi-az-ec2-architecture.png)
+
+## Supporting Screenshots
+
+### EC2 Compute and Instance Management
+![EC2 Compute Management](ec2-compute-management.png)
+
 
 ## AWS Services Used
 - Amazon EC2
