@@ -7,7 +7,11 @@ This project demonstrates core AWS networking and security concepts, including V
 ## Architecture
 The design consists of a public subnet hosting a web server and a private subnet hosting a database server. Internet access is controlled through routing and security group rules.
 
-(Architecture diagram included in this folder)
+
+## Architecture Diagram
+
+vpc-public-private-subnets.png
+
 
 ## AWS Services and Components Used
 - Amazon VPC
