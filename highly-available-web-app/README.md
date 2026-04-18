@@ -1,46 +1,48 @@
 
+
 # Highly Available Web Application on AWS
 
 ## Overview
-This project demonstrates the design and deployment of a highly available web application architecture on AWS. The goal was to build a fault-tolerant and scalable system using core AWS services.
+This project demonstrates the design and deployment of a highly available and
+scalable web application architecture on AWS. The objective was to build a
+fault-tolerant system using core AWS services and best practices.
 
 ## Architecture
-The architecture uses multiple Availability Zones to ensure high availability and resilience.
+The application is deployed across multiple Availability Zones to eliminate
+single points of failure and improve resiliency.
 
-
-## Architecture Diagram
-
-![Multi-AZ EC2 Architecture](multi-az-ec2-architecture.png)
+### Architecture Diagram
+diagrams/highly-available-web-app-architecture.png
 
 ## Supporting Screenshots
-
 ### EC2 Compute and Instance Management
-![EC2 Compute Management](ec2-compute-management.png)
-
+screenshots/ec2-instances.png
 
 ## AWS Services Used
 - Amazon EC2
 - Application Load Balancer (ALB)
 - Auto Scaling Group
 - Amazon VPC
-- IAM
+- AWS Identity and Access Management (IAM)
 - Amazon CloudWatch
 
 ## Design Decisions
-- Deployed EC2 instances across multiple Availability Zones to eliminate single points of failure.
-- Used an Application Load Balancer to distribute traffic across instances.
-- Configured Auto Scaling to automatically adjust capacity based on demand.
-- Used IAM roles instead of static credentials to follow security best practices.
-- Restricted traffic using security groups.
+- Deployed EC2 instances across multiple Availability Zones for fault tolerance
+- Used an Application Load Balancer to distribute incoming traffic
+- Configured Auto Scaling to adjust capacity automatically based on demand
+- Used IAM roles instead of static credentials to follow security best practices
+- Restricted network access using security groups
 
 ## Monitoring and Reliability
-- Used Amazon CloudWatch to monitor instance health and system performance.
-- Enabled health checks to automatically replace unhealthy instances.
+- Used Amazon CloudWatch to monitor instance health and performance
+- Enabled health checks to automatically replace unhealthy instances
 
 ## What I Learned
 - High availability design using Availability Zones
-- IAM least-privilege access
-- Monitoring and scaling cloud workloads
+- IAM least‑privilege access
+- Monitoring and scaling AWS workloads
 
 ## Notes
-Hands-on experience gained through AWS Cloud Quest and a personal AWS account.
+This project was completed through hands-on learning with AWS Cloud Quest and a
+personal AWS account.
+
