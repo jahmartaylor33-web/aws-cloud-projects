@@ -17,7 +17,7 @@ segmentation and explicit routing.
 The design consists of three VPCs, each hosting an EC2 instance. The Finance VPC
 serves as a central peering hub.
 
-diagrams/connecting-vpcs-architecture.png
+![Connecting VPCs Architecture](diagrams/connecting-vpcs-architecture.png)
 
 ## Implementation Details
 - Created VPC peering connections:
