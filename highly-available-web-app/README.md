@@ -7,19 +7,13 @@ This project demonstrates the design and deployment of a highly available and
 scalable web application architecture on AWS. The objective was to build a
 fault-tolerant system using core AWS services and best practices.
 
-## Architecture
-The application is deployed across multiple Availability Zones to eliminate
-single points of failure and improve resiliency.
-
-
 
 ## Architecture
 The application is deployed across multiple Availability Zones to eliminate
 single points of failure and improve resiliency.
 
 ### Architecture Diagram
-![Multi-AZ EC2 Architecture](diagrams/highly-available-web-app-architecture.png)
-
+![Multi-AZ EC2 Architecture](multi-az-ec2-architecture.png)
 
 
 
@@ -27,7 +21,9 @@ single points of failure and improve resiliency.
 ### Supporting Screenshots
 
 #### EC2 Compute and Instance Management
-![EC2 Instance Management](screenshots/ec2-instances.png)
+![EC2 Instance Management](ec2-compute-management.png)
+
+
 
 
 ## AWS Services Used
