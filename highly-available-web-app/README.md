@@ -12,15 +12,22 @@ The application is deployed across multiple Availability Zones to eliminate
 single points of failure and improve resiliency.
 
 
+
+## Architecture
+The application is deployed across multiple Availability Zones to eliminate
+single points of failure and improve resiliency.
+
 ### Architecture Diagram
 ![Multi-AZ EC2 Architecture](diagrams/highly-available-web-app-architecture.png)
+
+
 
 
 
 ### Supporting Screenshots
 
 #### EC2 Compute and Instance Management
-![EC2 Compute Management](screenshots/ec2-instances.png)
+![EC2 Instance Management](screenshots/ec2-instances.png)
 
 
 ## AWS Services Used
