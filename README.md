@@ -3,7 +3,7 @@
 
 This repository contains hands-on AWS cloud projects demonstrating foundational cloud engineering concepts such as architecture design, networking, security, monitoring, and serverless computing.
 
-The projects were built using AWS Cloud Quest labs and a personal AWS account to reinforce real-world AWS usage and best practices.
+The projects were completed using AWS Cloud Quest hands-on labs and select exercises in a personal AWS account to reinforce real-world AWS design patterns and best practices.”
 
 ## Projects Included
 
