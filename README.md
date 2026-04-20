@@ -19,6 +19,14 @@ The projects were completed using AWS Cloud Quest hands-on labs and select exerc
 - Designed a custom VPC with public and private subnets.
 - Implemented secure networking using route tables, NAT Gateway, and security groups.
 
+
+4. AWS Cloud Quest Labs
+Hands-on labs covering auto scaling, high availability, storage, databases, and security.
+Focused on practical AWS architecture patterns and operational best practices.
+
+
+
+
 ## Skills Demonstrated
 - AWS core services (EC2, VPC, IAM, S3, CloudWatch)
 - High availability and fault tolerance
