@@ -26,6 +26,38 @@ Focused on practical AWS architecture patterns and operational best practices.
 
 
 
+## Cloud Architecture Highlights
+
+Below are selected architecture diagrams from hands-on AWS labs and projects, demonstrating core cloud concepts such as scalability, availability, storage, databases, and security.
+
+
+### Auto-Healing and Scaling Applications
+screenshots/architecture-diagram.png
+
+- Demonstrates EC2 Auto Scaling and self-healing infrastructure
+- Focuses on resilience and cost optimization
+
+### First NoSQL Database (Amazon DynamoDB)
+screenshots/dynamodb-architecture.png
+
+- Shows a serverless NoSQL data model using DynamoDB
+- Highlights scalable access patterns
+
+### File Systems in the Cloud (Amazon EFS)
+screenshots/efs-architecture.png
+
+- Illustrates shared file systems mounted to EC2
+- Demonstrates persistent storage across instances
+
+### Core Security Concepts (IAM)
+screenshots/iam-security-architecture.png
+
+- Covers IAM users, groups, and least-privilege policies
+- Emphasizes secure access to AWS resources
+
+
+
+
 
 ## Skills Demonstrated
 - AWS core services (EC2, VPC, IAM, S3, CloudWatch)
